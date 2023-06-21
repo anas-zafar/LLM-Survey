@@ -1,1 +1,1 @@
-Prompts to be added here
+This folder contains some sample prompts for ChatGPT
