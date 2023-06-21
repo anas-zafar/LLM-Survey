@@ -1,1 +1,1 @@
-Images to be added here
+This folder contains diagrams and AI generated images 
