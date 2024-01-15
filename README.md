@@ -45,6 +45,8 @@ The Large Language Models Survey repository is a comprehensive compendium dedica
 
 If you find our survey useful for your research, please cite the following paper:
 
+
+```
 @article{hadi2023survey,
   title={A survey on large language models: Applications, challenges, limitations, and practical usage},
   author={Hadi, Muhammad Usman and Qureshi, Rizwan and Shah, Abbas and Irfan, Muhammad and Zafar, Anas and Shaikh, Muhammad Bilal and Akhtar, Naveed and Wu, Jia and Mirjalili, Seyedali and others},
@@ -52,3 +54,4 @@ If you find our survey useful for your research, please cite the following paper
   year={2023},
   publisher={Authorea}
 }
+```
