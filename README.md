@@ -62,11 +62,11 @@ If you find our survey useful for your research, please cite the following paper
 
 
 ```
-@article{hadi2023survey,
-  title={A survey on large language models: Applications, challenges, limitations, and practical usage},
-  author={Hadi, Muhammad Usman and Qureshi, Rizwan and Shah, Abbas and Irfan, Muhammad and Zafar, Anas and Shaikh, Muhammad Bilal and Akhtar, Naveed and Wu, Jia and Mirjalili, Seyedali and others},
+@article{hadi2024large,
+  title={Large language models: a comprehensive survey of its applications, challenges, limitations, and future prospects},
+  author={Hadi, Muhammad Usman and Al Tashi, Qasem and Shah, Abbas and Qureshi, Rizwan and Muneer, Amgad and Irfan, Muhammad and Zafar, Anas and Shaikh, Muhammad Bilal and Akhtar, Naveed and Wu, Jia and others},
   journal={Authorea Preprints},
-  year={2023},
+  year={2024},
   publisher={Authorea}
 }
 ```
