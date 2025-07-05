@@ -1,4 +1,4 @@
-# Large language models: A comprehensive survey of its applications, challenges, limitations, and future prospects (Updated 2025)
+# Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, And Future Prospects (Updated 2025)
 
 The Large Language Models Survey repository is a comprehensive compendium dedicated to the exploration and understanding of Large Language Models (LLMs). It houses an assortment of resources including research papers, blog posts, tutorials, code examples, and more to provide an in-depth look at the progression, methodologies, and applications of LLMs. This repo is an invaluable resource for AI researchers, data scientists, or enthusiasts interested in the advancements and inner workings of LLMs. We encourage contributions from the wider community to promote collaborative learning and continue pushing the boundaries of LLM research.
 
@@ -7,33 +7,38 @@ The Large Language Models Survey repository is a comprehensive compendium dedica
 
 ## List of LLMs (Updated July 2025)
 
-| Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Try it |
-|---|---|---|---|---|---|---|---|
+| Language Model | Organization | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Try it |
+|---|---|---|---|---|---|---|---|---|
 | **2025 Latest Models** |
-| Grok 3 / Grok 3 Mini | 2025/02 | [Grok 3](https://x.ai/), [Grok 3 Mini](https://x.ai/) | [Grok 3 Beta — The Age of Reasoning Agents](https://x.ai/news/grok-3) | 314 active (1M+ total) / Smaller variant | 1M tokens | Proprietary | [xAI Platform](https://grok.com) |
-| Llama 4 Scout | 2025/04 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E) | [The Llama 4 herd: The beginning of a new era](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 17B active (109B total) | 10M tokens | [Llama 4 Community License](https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE) | [HuggingFace](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E) |
-| Llama 4 Maverick | 2025/04 | [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E) | [The Llama 4 herd](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 17B active (400B total) | 1M tokens | [Llama 4 Community License](https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE) | [HuggingFace](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E) |
-| Llama 4 Behemoth | 2025/04 (Training) | [In Training](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | [The Llama 4 herd](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 288B active (~2T total) | TBD | TBD | TBD |
-| Qwen 3 Family | 2025/04 | [Qwen 3 Family](https://huggingface.co/collections/Qwen/qwen3-6633ebacb5c0a53ce76e1089) | [Alibaba unveils Qwen3](https://techcrunch.com/2025/04/28/alibaba-unveils-qwen-3-a-family-of-hybrid-ai-reasoning-models/) | 0.6B - 235B (22B active) | 32K - 131K tokens | Apache 2.0 | [Qwen Chat](https://chat.qwen.ai/) |
-| DeepSeek-R1 Family | 2025/01-05 | [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1), [R1-Zero](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero), [R1-0528](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | [DeepSeek-R1: Incentivizing Reasoning Capability](https://arxiv.org/abs/2501.12948) | 37B active (671B total) | 128K tokens | MIT | [DeepSeek Platform](https://chat.deepseek.com/) |
-| o3 / o3-mini / o4-mini | 2025/01-04 | [o3](https://platform.openai.com/docs/models/o3), [o3-mini](https://platform.openai.com/docs/models/o3-mini), [o4-mini](https://platform.openai.com/docs/models/o4-mini) | [Introducing OpenAI o3 and o4-mini](https://openai.com/index/introducing-o3-and-o4-mini/) | Undisclosed | 200K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
-| Claude 4 (Sonnet & Opus) | 2025/05 | [Claude Sonnet 4](https://docs.anthropic.com/en/docs/about-claude/models/overview), [Claude Opus 4](https://docs.anthropic.com/en/docs/about-claude/models/overview) | [Introducing Claude 4](https://www.anthropic.com/news/claude-4) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
-| Gemini 2.5 Family | 2025/03-06 | [Gemini 2.5 Pro](https://ai.google.dev/gemini-api/docs/models), [2.5 Flash](https://ai.google.dev/gemini-api/docs/models), [2.5 Flash-Lite](https://ai.google.dev/gemini-api/docs/models) | [Gemini 2.5: Our newest Gemini model with thinking](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/) | Undisclosed | 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
+| Grok 3 / Grok 3 Mini | xAI | 2025/02 | [Grok 3](https://x.ai/), [Grok 3 Mini](https://x.ai/) | [Grok 3 Beta — The Age of Reasoning Agents](https://x.ai/news/grok-3) | 314 active (1M+ total) / Smaller variant | 1M tokens | Proprietary | [xAI Platform](https://grok.com) |
+| Llama 4 Scout | Meta | 2025/04 | [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E) | [The Llama 4 herd: The beginning of a new era](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 17B active (109B total) | 10M tokens | [Llama 4 Community License](https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE) | [HuggingFace](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E) |
+| Llama 4 Maverick | Meta | 2025/04 | [Llama 4 Maverick](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E) | [The Llama 4 herd](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 17B active (400B total) | 1M tokens | [Llama 4 Community License](https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE) | [HuggingFace](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E) |
+| Llama 4 Behemoth | Meta | 2025/04 (Training) | [In Training](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | [The Llama 4 herd](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) | 288B active (~2T total) | TBD | TBD | TBD |
+| Qwen 3 Family | Alibaba | 2025/04 | [Qwen 3 Family](https://huggingface.co/collections/Qwen/qwen3-6633ebacb5c0a53ce76e1089) | [Alibaba unveils Qwen3](https://techcrunch.com/2025/04/28/alibaba-unveils-qwen-3-a-family-of-hybrid-ai-reasoning-models/) | 0.6B - 235B (22B active) | 32K - 131K tokens | Apache 2.0 | [Qwen Chat](https://chat.qwen.ai/) |
+| DeepSeek-R1 Family | DeepSeek | 2025/01-05 | [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1), [R1-Zero](https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero), [R1-0528](https://huggingface.co/deepseek-ai/DeepSeek-R1-0528) | [DeepSeek-R1: Incentivizing Reasoning Capability](https://arxiv.org/abs/2501.12948) | 37B active (671B total) | 128K tokens | MIT | [DeepSeek Platform](https://chat.deepseek.com/) |
+| o3 / o3-mini / o4-mini | OpenAI | 2025/01-04 | [o3](https://platform.openai.com/docs/models/o3), [o3-mini](https://platform.openai.com/docs/models/o3-mini), [o4-mini](https://platform.openai.com/docs/models/o4-mini) | [Introducing OpenAI o3 and o4-mini](https://openai.com/index/introducing-o3-and-o4-mini/) | Undisclosed | 200K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
+| Claude 4 (Sonnet & Opus) | Anthropic | 2025/05 | [Claude Sonnet 4](https://docs.anthropic.com/en/docs/about-claude/models/overview), [Claude Opus 4](https://docs.anthropic.com/en/docs/about-claude/models/overview) | [Introducing Claude 4](https://www.anthropic.com/news/claude-4) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
+| Gemini 2.5 Family | Google | 2025/03-06 | [Gemini 2.5 Pro](https://ai.google.dev/gemini-api/docs/models), [2.5 Flash](https://ai.google.dev/gemini-api/docs/models), [2.5 Flash-Lite](https://ai.google.dev/gemini-api/docs/models) | [Gemini 2.5: Our newest Gemini model with thinking](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/) | Undisclosed | 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
 | **Major 2024 Models** |
-| GPT-4o / GPT-4o mini | 2024/05-07 | [GPT-4o](https://platform.openai.com/docs/models/gpt-4o), [GPT-4o mini](https://platform.openai.com/docs/models/gpt-4o-mini) | [Hello GPT-4o](https://openai.com/index/hello-gpt-4o/), [GPT-4o mini: advancing cost-efficient intelligence](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | Undisclosed | 128K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
-| o1 / o1-mini | 2024/09 | [o1](https://platform.openai.com/docs/models/o1), [o1-mini](https://platform.openai.com/docs/models/o1) | [Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) | Undisclosed | 200K / 128K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
-| Claude 3 Family | 2024/03 | [Claude 3 Haiku](https://docs.anthropic.com/en/docs/about-claude/models), [Claude 3 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models), [Claude 3 Opus](https://docs.anthropic.com/en/docs/about-claude/models) | [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
-| Claude 3.5 Sonnet | 2024/06 | [Claude 3.5 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models) | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
-| Claude 3.7 Sonnet | 2024/10 | [Claude 3.7 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models) | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
-| Gemini 1.5 Pro / Flash | 2024/02-05 | [Gemini 1.5 Pro](https://ai.google.dev/models/gemini), [Gemini 1.5 Flash](https://ai.google.dev/models/gemini) | [Our next-generation model: Gemini 1.5](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/) | Undisclosed | 1M-2M / 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
-| Gemini 2.0 Flash | 2024/12 | [Gemini 2.0 Flash](https://ai.google.dev/gemini-api/docs/models) | [Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/gemini-2-0-flash-multimodal/) | Undisclosed | 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
-| Gemma 2 | 2024/06 | [Gemma 2 Family](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | [Gemma 2: Improving Open Language Models at a Practical Size](https://blog.google/technology/developers/google-gemma-2/) | 9B, 27B | 8K tokens | Apache 2.0 | [HuggingFace](https://huggingface.co/google/gemma-2-9b) |
-| Llama 3 Family | 2024/04 | [Llama 3 Weights](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) | [Introducing Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/) | 8B, 70B | 8K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
-| Llama 3.1 | 2024/07 | [Llama 3.1 Weights](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) | [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) | 8B, 70B, 405B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
-| Llama 3.2 | 2024/09 | [Llama 3.2 Models](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | [Llama 3.2: Revolutionizing edge AI and vision with open, customizable models](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | 1B, 3B, 11B, 90B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
-| Llama 3.3 | 2024/12 | [Llama 3.3 70B](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [Llama 3.3 70B](https://ai.meta.com/blog/llama-3-3-70b/) | 70B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
-| Phi-3 Family | 2024/04-08 | [Phi-3 Mini](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct), [Phi-3 Small](https://huggingface.co/microsoft/Phi-3-small-128k-instruct), [Phi-3 Medium](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct), [Phi-3.5 Mini](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | [Phi-3 Technical Report](https://arxiv.org/abs/2404.14219) | 3.8B - 14B | 4K-128K tokens | MIT | [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/) |
-| IBM Granite 3.0 / 3.1 | 2024/10-12 | [Granite 3.0](https://huggingface.co/collections/ibm-granite/granite-3-0-language-models-6752fa54b3b2f429c4c3be6c), [Granite 3.1](https://huggingface.co/collections/ibm-granite/granite-3-1-language-models-67699e6bb51fb7e8b35fd7e7) | [IBM Introduces Granite 3.0](https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business) | 2B, 8B | 4K / 128K tokens | Apache 2.0 | [IBM watsonx](https://www.ibm.com/watsonx) |
+| GPT-4o / GPT-4o mini | OpenAI | 2024/05-07 | [GPT-4o](https://platform.openai.com/docs/models/gpt-4o), [GPT-4o mini](https://platform.openai.com/docs/models/gpt-4o-mini) | [Hello GPT-4o](https://openai.com/index/hello-gpt-4o/), [GPT-4o mini: advancing cost-efficient intelligence](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/) | Undisclosed | 128K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
+| o1 / o1-mini | OpenAI | 2024/09 | [o1](https://platform.openai.com/docs/models/o1), [o1-mini](https://platform.openai.com/docs/models/o1) | [Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/) | Undisclosed | 200K / 128K tokens | Proprietary | [ChatGPT](https://chat.openai.com/) |
+| Claude 3 Family | Anthropic | 2024/03 | [Claude 3 Haiku](https://docs.anthropic.com/en/docs/about-claude/models), [Claude 3 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models), [Claude 3 Opus](https://docs.anthropic.com/en/docs/about-claude/models) | [Introducing the next generation of Claude](https://www.anthropic.com/news/claude-3-family) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
+| Claude 3.5 Sonnet | Anthropic | 2024/06 | [Claude 3.5 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models) | [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
+| Claude 3.7 Sonnet | Anthropic | 2024/10 | [Claude 3.7 Sonnet](https://docs.anthropic.com/en/docs/about-claude/models) | [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet) | Undisclosed | 200K tokens | Proprietary | [Claude.ai](https://claude.ai/) |
+| Gemini 1.5 Pro / Flash | Google | 2024/02-05 | [Gemini 1.5 Pro](https://ai.google.dev/models/gemini), [Gemini 1.5 Flash](https://ai.google.dev/models/gemini) | [Our next-generation model: Gemini 1.5](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/) | Undisclosed | 1M-2M / 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
+| Gemini 2.0 Flash | Google | 2024/12 | [Gemini 2.0 Flash](https://ai.google.dev/gemini-api/docs/models) | [Gemini 2.0 Flash](https://blog.google/technology/google-deepmind/gemini-2-0-flash-multimodal/) | Undisclosed | 1M tokens | Proprietary | [Gemini](https://gemini.google.com/) |
+| Gemma 2 | Google | 2024/06 | [Gemma 2 Family](https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315) | [Gemma 2: Improving Open Language Models at a Practical Size](https://blog.google/technology/developers/google-gemma-2/) | 9B, 27B | 8K tokens | Apache 2.0 | [HuggingFace](https://huggingface.co/google/gemma-2-9b) |
+| Llama 3 Family | Meta | 2024/04 | [Llama 3 Weights](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) | [Introducing Meta Llama 3](https://ai.meta.com/blog/meta-llama-3/) | 8B, 70B | 8K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
+| Llama 3.1 | Meta | 2024/07 | [Llama 3.1 Weights](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) | [The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) | 8B, 70B, 405B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
+| Llama 3.2 | Meta | 2024/09 | [Llama 3.2 Models](https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf) | [Llama 3.2: Revolutionizing edge AI and vision with open, customizable models](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) | 1B, 3B, 11B, 90B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
+| Llama 3.3 | Meta | 2024/12 | [Llama 3.3 70B](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) | [Llama 3.3 70B](https://ai.meta.com/blog/llama-3-3-70b/) | 70B | 128K tokens | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) | [HuggingChat](https://huggingface.co/chat/) |
+| Phi-3 Family | Microsoft | 2024/04-08 | [Phi-3 Mini](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct), [Phi-3 Small](https://huggingface.co/microsoft/Phi-3-small-128k-instruct), [Phi-3 Medium](https://huggingface.co/microsoft/Phi-3-medium-128k-instruct), [Phi-3.5 Mini](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) | [Phi-3 Technical Report](https://arxiv.org/abs/2404.14219) | 3.8B - 14B | 4K-128K tokens | MIT | [Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/) |
+| IBM Granite 3.0 / 3.1 | IBM | 2024/10-12 | [Granite 3.0](https://huggingface.co/collections/ibm-granite/granite-3-0-language-models-6752fa54b3b2f429c4c3be6c), [Granite 3.1](https://huggingface.co/collections/ibm-granite/granite-3-1-language-models-67699e6bb51fb7e8b35fd7e7) | [IBM Introduces Granite 3.0](https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business) | 2B, 8B | 4K / 128K tokens | Apache 2.0 | [IBM watsonx](https://www.ibm.com/watsonx) |
+| Command R / R+ | Cohere | 2024/03-04 | [Command R](https://huggingface.co/CohereForAI/c4ai-command-r-v01), [Command R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | [Command R: Cohere's scalable generative model](https://cohere.com/blog/command-r) | 35B / 104B | 128K tokens | CC BY-NC 4.0 | [Cohere Platform](https://cohere.com/) |
+| DeepSeek-V3 Family | DeepSeek | 2024/12-2025/03 | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3), [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | 37B active (671B total) | 128K tokens | MIT | [DeepSeek Platform](https://chat.deepseek.com/) |
+| Qwen 2.5 Family | Alibaba | 2024/09-2025/01 | [Qwen 2.5 Family](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e), [Qwen 2.5-Max](https://huggingface.co/Qwen/Qwen2.5-Max) | [Qwen2.5: A Party of Foundation Models](https://qwenlm.github.io/blog/qwen2.5/) | 0.5B - 72B / Undisclosed | 32K-128K tokens | Apache 2.0 / Proprietary | [Qwen Chat](https://chat.qwen.ai/) |
+| QwQ-32B | Alibaba | 2024/11 | [QwQ-32B-Preview](https://huggingface.co/Qwen/QwQ-32B-Preview) | [QwQ-32B Technical Report](https://arxiv.org/abs/2411.20213) | 32B | 32K tokens | Apache 2.0 | [Qwen Chat](https://chat.qwen.ai/) |
+| Mistral Family | Mistral AI | 2023/09-2025/05 | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1), [Mistral Large 2](https://huggingface.co/mistralai/Mistral-Large-Instruct-2407), [Mistral Medium](https://mistral.ai/) | [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/) | 7B - 123B / Undisclosed | 4K-128K tokens | Apache 2.0 / Proprietary | [Mistral Platform](https://chat.mistral.ai/) |0](https://huggingface.co/collections/ibm-granite/granite-3-0-language-models-6752fa54b3b2f429c4c3be6c), [Granite 3.1](https://huggingface.co/collections/ibm-granite/granite-3-1-language-models-67699e6bb51fb7e8b35fd7e7) | [IBM Introduces Granite 3.0](https://newsroom.ibm.com/2024-10-21-ibm-introduces-granite-3-0-high-performing-ai-models-built-for-business) | 2B, 8B | 4K / 128K tokens | Apache 2.0 | [IBM watsonx](https://www.ibm.com/watsonx) |
 | Command R / R+ | 2024/03-04 | [Command R](https://huggingface.co/CohereForAI/c4ai-command-r-v01), [Command R+](https://huggingface.co/CohereForAI/c4ai-command-r-plus) | [Command R: Cohere's scalable generative model](https://cohere.com/blog/command-r) | 35B / 104B | 128K tokens | CC BY-NC 4.0 | [Cohere Platform](https://cohere.com/) |
 | DeepSeek-V3 Family | 2024/12-2025/03 | [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3), [DeepSeek-V3-0324](https://huggingface.co/deepseek-ai/DeepSeek-V3-0324) | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) | 37B active (671B total) | 128K tokens | MIT | [DeepSeek Platform](https://chat.deepseek.com/) |
 | Qwen 2.5 Family | 2024/09-2025/01 | [Qwen 2.5 Family](https://huggingface.co/collections/Qwen/qwen25-66e81a666513e518adb90d9e), [Qwen 2.5-Max](https://huggingface.co/Qwen/Qwen2.5-Max) | [Qwen2.5: A Party of Foundation Models](https://qwenlm.github.io/blog/qwen2.5/) | 0.5B - 72B / Undisclosed | 32K-128K tokens | Apache 2.0 / Proprietary | [Qwen Chat](https://chat.qwen.ai/) |
@@ -197,6 +202,88 @@ If you find our survey useful for your research, please cite the following paper
   publisher={Authorea}
 }
 ```
+
+
+## Model Organization Summary
+
+### **By Company/Organization:**
+
+**🔴 Proprietary Models:**
+- **OpenAI**: GPT-4, GPT-4.5, GPT-4o, o1, o3, o4-mini, ChatGPT, InstructGPT
+- **Anthropic**: Claude 3 Family, Claude 3.5, Claude 3.7, Claude 4, Anthropic LM
+- **Google/DeepMind**: Gemini 2.5, Gemini 2.0, Gemini 1.5, PaLM 2, Bard, T5, UL2, Chinchilla, Sparrow, Gopher, GLaM, Minerva
+- **xAI**: Grok 3, Grok 3 Mini
+- **AI21 Labs**: Jurassic-1, Jurassic-2
+- **Mistral AI**: Mistral 7B, Mistral Large 2, Mistral Medium
+
+**🟢 Open Source Models:**
+- **Meta**: Llama 4, Llama 3.x, Llama 2, OPT, Code Llama, Gallactica
+- **Alibaba**: Qwen 3, Qwen 2.5, QwQ-32B
+- **DeepSeek**: DeepSeek-R1, DeepSeek-V3
+- **Microsoft**: Phi-3 Family, Phi-2
+- **IBM**: Granite 3.0, Granite 3.1
+- **Google**: Gemma 2
+- **Cohere**: Command R, Command R+
+- **BigScience**: BLOOM
+- **EleutherAI**: GPT-J, GPT-NeoX, Pythia
+- **BigCode**: StarCoder, StarChat, SantaCoder
+- **Salesforce**: CodeGen2, CodeT5+, XGen
+- **TIIUAE**: Falcon
+- **Upstage**: SOLAR
+
+**🎓 Academic/Research:**
+- **LMSYS**: Vicuna, FastChat-T5
+- **Stanford**: Alpaca
+- **UC Berkeley**: Koala
+- **LAION**: Open Assistant
+- **OpenLM Research**: OpenLLaMA
+- **MLFoundations**: OpenLM
+
+**🏢 Other Companies:**
+- **Yandex**: YaLM
+- **Replit**: Replit Code
+- **H2O.ai**: h2oGPT
+- **Databricks**: Dolly
+- **Together**: RedPajama-INCITE
+- **MosaicML**: MPT Family
+- **Stability AI**: StableLM
+- **Nous Research**: OpenHermes
+- **Cerebras**: Cerebras-GPT
+- **Deci AI**: DeciCoder
+- **AI Squared**: DLite
+- **BlinkDL**: RWKV
+
+### **By Model Type:**
+
+**🧠 Reasoning Models (2024-2025):**
+- OpenAI: o1, o1-mini, o3, o3-mini, o4-mini
+- DeepSeek: DeepSeek-R1 Family
+- Alibaba: QwQ-32B, Qwen 3 (hybrid reasoning)
+- Google: Gemini 2.5 (thinking models)
+
+**💬 Conversational Models:**
+- OpenAI: ChatGPT, GPT-4o
+- Anthropic: Claude 3/4 Family
+- Google: Bard, Gemini
+- xAI: Grok 3
+
+**💻 Code-Specialized:**
+- Meta: Code Llama
+- BigCode: StarCoder, SantaCoder
+- Salesforce: CodeGen2, CodeT5+
+- Replit: Replit Code
+- Deci AI: DeciCoder
+
+**🌐 Multimodal:**
+- OpenAI: GPT-4o
+- Google: Gemini 2.0/2.5
+- Meta: Llama 4, Llama 3.2
+
+**⚡ Efficient/Small:**
+- Microsoft: Phi-3 Family, Phi-2
+- Google: Gemma 2
+- AI Squared: DLite
+- Upstage: SOLAR
 
 ---
 
