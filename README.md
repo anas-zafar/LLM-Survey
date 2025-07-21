@@ -1,4 +1,4 @@
-# Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, And Future Prospects (Updated 2025)
+# Large Language Models: A Comprehensive Survey of its Applications, Challenges, Limitations, And Future Prospects (Updated July 2025)
 
 The Large Language Models Survey repository is a comprehensive compendium dedicated to the exploration and understanding of Large Language Models (LLMs). It houses an assortment of resources including research papers, blog posts, tutorials, code examples, and more to provide an in-depth look at the progression, methodologies, and applications of LLMs. This repo is an invaluable resource for AI researchers, data scientists, or enthusiasts interested in the advancements and inner workings of LLMs. We encourage contributions from the wider community to promote collaborative learning and continue pushing the boundaries of LLM research.
 
@@ -122,6 +122,7 @@ The year 2025 has been marked by several breakthrough releases in the LLM landsc
 
 **DeepSeek-R1** emerged as the first major open-source reasoning model, trained purely through reinforcement learning without supervised fine-tuning. The model demonstrates performance comparable to OpenAI's o1 across math, code, and reasoning tasks while being completely open-source under the MIT license.
 
+**Cursor-AI** emerged as a vibe coding platform.
 **Qwen 3**, released by Alibaba in April 2025, features a family of "hybrid" reasoning models ranging from 0.6B to 235B parameters, supporting 119 languages and trained on over 36 trillion tokens. The models seamlessly integrate thinking and non-thinking modes, offering users flexibility to control the thinking budget.
 
 **OpenAI** continued its reasoning model series with **o3** and **o4-mini** in April 2025, while **Anthropic** launched **Claude 4** (Opus 4 and Sonnet 4) in May 2025, setting new standards for coding and advanced reasoning with extended thinking capabilities and tool use.
